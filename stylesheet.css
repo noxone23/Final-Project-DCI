@@ -1,0 +1,324 @@
+.overlay ul il a:hover {
+    color: orange;
+}
+
+/*
+.section1 {
+    width: 200px;
+    border: 1px solid #c1c1c1;
+    margin: 20px 10px;
+    padding: 0 5px;
+    float: left;
+}
+*/
+
+.section1 {
+    margin: 20px;
+}
+
+.section2 {
+    margin: 20px;
+}
+
+.section3 {
+    margin: 20px;
+}
+
+.section4 {
+    margin: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+div.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+header {
+    background-color: #000000;
+    float: left;
+    width: 100%;
+}
+
+header h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    float: left;
+
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 22px 0 0 0;
+    float: right;
+}
+
+@media all and (max-width:768px) {
+    header ul {
+        display: none;
+    }
+}
+
+header img.hamburger {
+    display: none;
+    max-width: 30px;
+    margin-top: 28px;
+    float: right;
+}
+
+@media all and (max-width:768px) {
+    header img.hamburger {
+        display: block;
+    }
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+div.overlay {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+div.overlay ul {
+    padding: 0;
+    margin: 100px 0 0 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+div.overlay ul li {
+    display: block;
+}
+
+div.overlay ul li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-size: 50px;
+}
+
+div.overlay img.close {
+    max-width: 30px;
+    position: absolute;
+    right: 30px;
+    top: 26px;
+}
+
+.banner {
+    width: 100%;
+    display: block;
+}
+
+.banner > .banner-image {
+    width: 100%;
+    display: block;
+}
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float.left {
+    float: left;
+}
+
+.float.right {
+    float: right;
+}
+
+div.container {
+    max-width: 1300px;
+    padding: 0 30px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+div.block {
+    background-color: #545b6e;
+    height: 150px;
+    width: 100%;
+    display: block;
+}
+
+footer {
+    display: block;
+    width: 100%;
+}
+
+footer div.copyright {
+    display: block;
+    width: 100%;
+    background-color: #000000;
+    padding: 20px 0;
+}
+
+footer div.copyright div.text {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 6px;
+
+}
+
+footer div.copyright ul.links {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+footer div.copyright li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style-type: none;
+}
+
+footer div.copyright li a {
+    color: #ffffff;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+@media all and (max-width:768px) {
+
+    .float.left,
+    .float.right {
+        float: none;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    footer div.copyright li a {
+        margin-left: 0px;
+        margin: 0 5px;
+    }
+}
+
+/*
+.service1 {
+    width: 298px;
+    border: 1px solid #c1c1c1;
+    margin: 20px 10px;
+    padding: 0 5px;
+    float: left;
+}
+*/
+
+
+.service1 > p {
+    font-size: 14px;
+    color: #000000;
+    max-width: 250px;
+}
+
+/*.services {
+    width: 1333px;
+    margin: 0 auto;
+}*/
+
+/*h1 {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #c1c1c1;
+    color: #ffffff;
+    padding: 10px 0;
+    margin: 0 -6px;
+}*/
+
+
+.image {
+    max-width: 200px;
+    margin: 15px 0 0 0;
+}
+
+.heading {
+    text-align: center;
+    font-size: 25px;
+    color: #c1c1c1;
+    margin: 100px 0 50px 0;
+}
+
+.image:hover {
+    opacity: 0.2;
+    max-width: 200px;
+    margin-top: 15px;
+}
+
+
+
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Helvetica", Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    color: rgb(210, 220, 230);
+    background-color: rgb(40, 50, 60);
+    font-size: 0.8em;
+}
+
+footer a {
+    color: rgb(210, 220, 230);
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.overview h1,
+.overview p,
+.overview ul {
+    padding: 20px;
+}
+
+.overview ul {
+    list-style-type: none;
+}
